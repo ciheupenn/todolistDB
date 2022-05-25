@@ -22,7 +22,7 @@ const Item = mongoose.model("Item", itemsSchema);
 
 
 const item1 = new Item({
-  name: "Love Makes a Family!❤️"
+  name: "Love Makes a Family!"
 });
 
 const defaultItems = [item1];
